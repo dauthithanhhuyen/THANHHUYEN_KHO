@@ -1,1 +1,2 @@
 check db di
+sua lai form dang ky
