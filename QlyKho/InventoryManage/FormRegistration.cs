@@ -61,7 +61,8 @@ namespace InventoryManage
                             User user = new User();
                             user.UserName = TxtResUser.Text;
                             user.Pass = TxtResPass1.Text;
-                            user.ID = Convert.ToInt32(TxtResName.Text);
+                            //user.Id = Convert.Int32(TxtNum1.Text);
+							user.ID = Convert.ToInt32(TxtResName.Text);
                             db.Users.Add(user);
                             db.SaveChanges();
                             this.Hide();
