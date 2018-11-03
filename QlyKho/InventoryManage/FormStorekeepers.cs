@@ -151,6 +151,13 @@ namespace InventoryManage
         }
 
         //
+private void BtStoFresh_Click(object sender, EventArgs e)
+        {
+            TxtStoAddress.Clear();
+            TxtStoEmail.Clear();
+            TxtStoName.Clear();
+            TxtStoPhone.Clear();
+        }
 
         private void BtStoCreate_Click(object sender, EventArgs e)
         {
