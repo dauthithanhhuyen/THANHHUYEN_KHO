@@ -1,2 +1,3 @@
 check db di
 sua lai form dang ky
+Nhan Dung: kiem tra lai produc form
