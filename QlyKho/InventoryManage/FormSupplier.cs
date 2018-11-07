@@ -80,12 +80,12 @@ namespace InventoryManage
             if(Medium.FormSup == false) LoadDetail();
 
         }
-
+	//Load detail khi bam vao tung cell
         private void DgvSup_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             LoadDetail();
         }
-
+	//bam search
         private void BtSupSearch_Click(object sender, EventArgs e)
         {
             if(CmbSup.Text == "ID of Supplier" || CmbSup.Text == "")
