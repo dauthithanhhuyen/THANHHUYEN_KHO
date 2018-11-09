@@ -63,7 +63,16 @@ namespace InventoryManage
             CbProSupplier.ValueMember = "ID";
             CbProSupplier.DisplayMember = "Name";
         }
-       ////
+        public void LoadDetail()
+        {
+            string code = DgvPro.CurrentRow.Cells["Code"].Value.ToString();
+            var product = db.Products.Where(p => p.Code == code).SingleOrDefault();
+            TxtProName.Text = product.Name;
+            TxtProCode.Text = code;
+            TxtProQuantity.Text = product.Quantity.ToString();
+            TxtProUnit.Text = product.Unit;
+            CbProSupplier.SelectedValue = product.IdCom;
+        }
         private void FormProducts_Load(object sender, EventArgs e)
         {
             if(Medium.Active == true)
