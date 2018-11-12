@@ -18,7 +18,25 @@ namespace InventoryManage
             InitializeComponent();
         }
         MyContext db = new MyContext();
-       ///
+        public void LoadDgvPro()
+        {
+            var Id = Convert.ToInt32(DgvExp.CurrentRow.Cells["ID"].Value.ToString());
+            var result = from c in db.DetailExports.Where(p => p.IDBill == Id)
+                         select new
+                         {
+                             ID = c.IDProduct,
+                             Code = c.Product.Code,
+                             Name = c.Product.Name,
+                             Quantity = c.Quantity,
+                             Unit = c.Product.Unit,
+                         };
+            DgvExpPro.DataSource = result.ToList();
+            DgvExpPro.Columns["ID"].Width = 50;
+            DgvExpPro.Columns["Code"].Width = 70;
+            DgvExpPro.Columns["Name"].Width = 80;
+            DgvExpPro.Columns["Quantity"].Width = 60;
+            DgvExpPro.Columns["Unit"].Width =60;
+        }
 
         public void LoadDgv()
         {
@@ -63,8 +81,7 @@ namespace InventoryManage
             CbExpCustomer.SelectedValue = result.IDCustom;
             DateExp.Value = DateTime.Parse(result.DateExport.ToString());
         }
-        //
-public void LoadDetailPro()
+        public void LoadDetailPro()
         {
             var IdBill = DgvExp.CurrentRow.Cells["ID"].Value.ToString();
             int Bill = Convert.ToInt16(IdBill);
