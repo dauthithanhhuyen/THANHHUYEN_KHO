@@ -19,6 +19,25 @@ namespace InventoryManage
         }
         MyContext db = new MyContext();
        
+public void LoadDgvPro()
+        {
+            var Id = Convert.ToInt32(DgvImp.CurrentRow.Cells["ID"].Value.ToString());
+            var result = from c in db.DetailImports.Where(p => p.IDBill == Id)
+                         select new
+                         {
+                             ID = c.IDProduct,
+                             Code = c.Product.Code,
+                             Name = c.Product.Name,
+                             Quantity = c.Quantity,
+                             Unit = c.Product.Unit,
+                         };
+            DgvImpPro.DataSource = result.ToList();
+            DgvImpPro.Columns["ID"].Width = 50;
+            DgvImpPro.Columns["Code"].Width = 70;
+            DgvImpPro.Columns["Name"].Width = 80;
+            DgvImpPro.Columns["Quantity"].Width = 60;
+            DgvImpPro.Columns["Unit"].Width = 60;
+        }
 
         public void LoadDgv()
         {
