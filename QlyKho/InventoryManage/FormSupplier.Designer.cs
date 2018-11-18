@@ -164,7 +164,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Teal;
+            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
             this.groupBox1.Controls.Add(this.TxtSupEmail);
             this.groupBox1.Controls.Add(this.TxtSupPhone);
             this.groupBox1.Controls.Add(this.TxtSupAddress);
@@ -264,7 +264,7 @@
             // 
             // TxtSupSearch
             // 
-            this.TxtSupSearch.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxtSupSearch.BackColor = System.Drawing.Color.MediumAquamarine;
             this.TxtSupSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtSupSearch.Margin = new System.Windows.Forms.Padding(390, 0, 1, 0);
             this.TxtSupSearch.Name = "TxtSupSearch";
@@ -274,6 +274,7 @@
             // 
             // BtSupSearch
             // 
+            this.BtSupSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtSupSearch.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtSupSearch.Image = global::InventoryManage.Properties.Resources.search;
             this.BtSupSearch.ImageTransparentColor = System.Drawing.Color.Magenta;

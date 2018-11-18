@@ -70,13 +70,13 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Margin = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(577, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(570, 25);
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // TxtStoSearch
             // 
-            this.TxtStoSearch.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxtStoSearch.BackColor = System.Drawing.Color.MediumAquamarine;
             this.TxtStoSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtStoSearch.Margin = new System.Windows.Forms.Padding(380, 0, 1, 0);
             this.TxtStoSearch.Name = "TxtStoSearch";
@@ -86,6 +86,7 @@
             // 
             // BtStoSearch
             // 
+            this.BtStoSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtStoSearch.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtStoSearch.Image = global::InventoryManage.Properties.Resources.search;
             this.BtStoSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -96,7 +97,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Teal;
+            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
             this.groupBox1.Controls.Add(this.BirthDay);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.TxtStoEmail);
@@ -321,7 +322,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(577, 485);
+            this.ClientSize = new System.Drawing.Size(570, 485);
             this.Controls.Add(this.CmbSto);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);

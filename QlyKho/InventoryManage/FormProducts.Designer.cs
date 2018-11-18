@@ -76,16 +76,17 @@
             // 
             // TxtProSearch
             // 
-            this.TxtProSearch.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxtProSearch.BackColor = System.Drawing.Color.MediumAquamarine;
             this.TxtProSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtProSearch.Margin = new System.Windows.Forms.Padding(380, 0, 1, 0);
             this.TxtProSearch.Name = "TxtProSearch";
             this.TxtProSearch.Size = new System.Drawing.Size(100, 25);
-            this.TxtProSearch.Text = "Fill information";
+            this.TxtProSearch.Text = "Điền thông tin";
             this.TxtProSearch.Click += new System.EventHandler(this.TxtProSearch_Click);
             // 
             // BtProSearch
             // 
+            this.BtProSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtProSearch.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtProSearch.Image = global::InventoryManage.Properties.Resources.search;
             this.BtProSearch.ImageTransparentColor = System.Drawing.Color.Thistle;
@@ -96,7 +97,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Teal;
+            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
             this.groupBox1.Controls.Add(this.TxtProUnit);
             this.groupBox1.Controls.Add(this.BtProCreateSup);
             this.groupBox1.Controls.Add(this.CbProSupplier);
@@ -128,7 +129,7 @@
             // BtProCreateSup
             // 
             this.BtProCreateSup.Enabled = false;
-            this.BtProCreateSup.Image = global::InventoryManage.Properties.Resources.them;
+            this.BtProCreateSup.Image = ((System.Drawing.Image)(resources.GetObject("BtProCreateSup.Image")));
             this.BtProCreateSup.Location = new System.Drawing.Point(846, 31);
             this.BtProCreateSup.Name = "BtProCreateSup";
             this.BtProCreateSup.Size = new System.Drawing.Size(35, 34);

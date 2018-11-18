@@ -215,7 +215,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Teal;
+            this.label5.BackColor = System.Drawing.Color.LightSalmon;
             this.label5.Location = new System.Drawing.Point(6, 27);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(95, 16);
@@ -225,7 +225,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Teal;
+            this.label3.BackColor = System.Drawing.Color.LightSalmon;
             this.label3.Location = new System.Drawing.Point(256, 30);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 16);
@@ -235,7 +235,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.BackColor = System.Drawing.Color.LightSalmon;
             this.label2.Location = new System.Drawing.Point(256, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
@@ -244,7 +244,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Teal;
+            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.TxtImpStoID);
             this.groupBox1.Controls.Add(this.BtImpCreateSup);
@@ -267,7 +267,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Teal;
+            this.label10.BackColor = System.Drawing.Color.LightSalmon;
             this.label10.Location = new System.Drawing.Point(430, 68);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 16);
@@ -286,7 +286,7 @@
             // BtImpCreateSup
             // 
             this.BtImpCreateSup.Enabled = false;
-            this.BtImpCreateSup.Image = global::InventoryManage.Properties.Resources.them;
+            this.BtImpCreateSup.Image = ((System.Drawing.Image)(resources.GetObject("BtImpCreateSup.Image")));
             this.BtImpCreateSup.Location = new System.Drawing.Point(214, 21);
             this.BtImpCreateSup.Name = "BtImpCreateSup";
             this.BtImpCreateSup.Size = new System.Drawing.Size(27, 24);
@@ -307,7 +307,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.BackColor = System.Drawing.Color.LightSalmon;
             this.label1.Location = new System.Drawing.Point(6, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 16);
@@ -316,7 +316,7 @@
             // 
             // TxtImpSearch
             // 
-            this.TxtImpSearch.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxtImpSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.TxtImpSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtImpSearch.Margin = new System.Windows.Forms.Padding(300, 0, 1, 0);
             this.TxtImpSearch.Name = "TxtImpSearch";
@@ -338,6 +338,7 @@
             // 
             // BtImpSearch
             // 
+            this.BtImpSearch.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.BtImpSearch.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtImpSearch.Image = global::InventoryManage.Properties.Resources.search;
             this.BtImpSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -349,6 +350,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.groupBox5);
             this.panel1.Controls.Add(this.groupBox4);
@@ -376,7 +378,7 @@
             // 
             // BtImpDeletePro
             // 
-            this.BtImpDeletePro.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.BtImpDeletePro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BtImpDeletePro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.BtImpDeletePro.ForeColor = System.Drawing.Color.Black;
             this.BtImpDeletePro.Location = new System.Drawing.Point(277, 208);
@@ -404,7 +406,7 @@
             // 
             // BtImpAddPro
             // 
-            this.BtImpAddPro.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.BtImpAddPro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtImpAddPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.BtImpAddPro.ForeColor = System.Drawing.Color.Black;
             this.BtImpAddPro.Location = new System.Drawing.Point(22, 208);
@@ -427,7 +429,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.Teal;
+            this.groupBox4.BackColor = System.Drawing.Color.LightSalmon;
             this.groupBox4.Controls.Add(this.BtImpProCreate);
             this.groupBox4.Controls.Add(this.TxtImpProUnit);
             this.groupBox4.Controls.Add(this.CbImpProSup);
@@ -450,10 +452,10 @@
             // BtImpProCreate
             // 
             this.BtImpProCreate.Enabled = false;
-            this.BtImpProCreate.Image = global::InventoryManage.Properties.Resources.them;
-            this.BtImpProCreate.Location = new System.Drawing.Point(109, 23);
+            this.BtImpProCreate.Image = ((System.Drawing.Image)(resources.GetObject("BtImpProCreate.Image")));
+            this.BtImpProCreate.Location = new System.Drawing.Point(123, 18);
             this.BtImpProCreate.Name = "BtImpProCreate";
-            this.BtImpProCreate.Size = new System.Drawing.Size(27, 24);
+            this.BtImpProCreate.Size = new System.Drawing.Size(28, 34);
             this.BtImpProCreate.TabIndex = 19;
             this.BtImpProCreate.UseVisualStyleBackColor = true;
             this.BtImpProCreate.Click += new System.EventHandler(this.BtImpProCreate_Click);
@@ -486,7 +488,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Teal;
+            this.label7.BackColor = System.Drawing.Color.LightSalmon;
             this.label7.Location = new System.Drawing.Point(288, 27);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 16);
@@ -496,7 +498,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Teal;
+            this.label8.BackColor = System.Drawing.Color.LightSalmon;
             this.label8.Location = new System.Drawing.Point(173, 30);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(61, 16);
@@ -506,7 +508,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Teal;
+            this.label9.BackColor = System.Drawing.Color.LightSalmon;
             this.label9.Location = new System.Drawing.Point(148, 66);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(95, 16);
@@ -516,7 +518,7 @@
             // TxtImpProName
             // 
             this.TxtImpProName.Enabled = false;
-            this.TxtImpProName.Location = new System.Drawing.Point(53, 55);
+            this.TxtImpProName.Location = new System.Drawing.Point(44, 58);
             this.TxtImpProName.Name = "TxtImpProName";
             this.TxtImpProName.Size = new System.Drawing.Size(83, 22);
             this.TxtImpProName.TabIndex = 11;
@@ -533,7 +535,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Teal;
+            this.label4.BackColor = System.Drawing.Color.LightSalmon;
             this.label4.Location = new System.Drawing.Point(6, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 16);
@@ -543,7 +545,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Teal;
+            this.label6.BackColor = System.Drawing.Color.LightSalmon;
             this.label6.Location = new System.Drawing.Point(6, 61);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(32, 16);
