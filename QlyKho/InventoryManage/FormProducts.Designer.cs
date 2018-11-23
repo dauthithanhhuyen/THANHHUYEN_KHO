@@ -97,7 +97,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
+            this.groupBox1.BackColor = System.Drawing.Color.Teal;
             this.groupBox1.Controls.Add(this.TxtProUnit);
             this.groupBox1.Controls.Add(this.BtProCreateSup);
             this.groupBox1.Controls.Add(this.CbProSupplier);

@@ -164,7 +164,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
+            this.groupBox1.BackColor = System.Drawing.Color.Teal;
             this.groupBox1.Controls.Add(this.TxtSupEmail);
             this.groupBox1.Controls.Add(this.TxtSupPhone);
             this.groupBox1.Controls.Add(this.TxtSupAddress);
